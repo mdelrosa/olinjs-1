@@ -7,7 +7,7 @@ var app = express();
 // Create the route for the path / and send a creepy response.
 app.get('/', function (req, res) {
   res.send('<h1>I see you ' + (process.env.USER || 'Olin.js') + '!</h1>');
-  res.send('<p><img src="http://i1.kym-cdn.com/entries/icons/original/000/000/015/orly.jpg" /></p>'
+  res.send('<p><img src="http://i1.kym-cdn.com/entries/icons/original/000/000/015/orly.jpg" /></p>');
 });
 
 // Start serving webpages.
